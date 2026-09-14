@@ -11,7 +11,7 @@
     header{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}.name{color:var(--ink);font:700 21px Georgia,serif}nav{display:flex;gap:22px;font-size:14px}nav a{color:var(--muted)}
     .intro{display:grid;grid-template-columns:128px 1fr;gap:42px;padding:64px 0 50px}.portrait{display:block;width:128px;height:auto;background:var(--soft);border:1px solid var(--line)}.intro h1{margin:0 0 5px;font:700 43px/1.1 Georgia,serif}.role{margin:0;color:var(--muted);font-size:15px}.bio{max-width:670px;margin:24px 0 18px;line-height:1.7}.profiles{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px}
     section{padding:38px 0;border-top:1px solid var(--line)}h2{margin:0 0 22px;font:700 25px Georgia,serif}.interests{display:flex;flex-wrap:wrap;gap:9px}.interests span{padding:6px 11px;background:var(--soft);border:1px solid var(--line);font-size:13px}
-    .paper{display:grid;grid-template-columns:74px 1fr;gap:18px;margin:0 0 26px}.year{color:var(--muted);font-size:14px}.paper h3{margin:0 0 5px;font-size:17px;line-height:1.35;color:var(--ink)}.paper p{margin:3px 0;color:var(--muted);font-size:14px}.paper .links{color:var(--blue)}.cols{display:grid;grid-template-columns:1fr 1fr;gap:60px}.plain{margin:0;padding:0;list-style:none}.plain li{margin:0 0 13px}.plain strong{display:block;color:var(--ink)}.plain small{display:block;color:var(--muted);margin-top:2px}
+    .publication-note{margin:-12px 0 24px;color:var(--muted);font-size:14px}.paper{display:grid;grid-template-columns:74px 1fr;gap:18px;margin:0 0 26px}.year{color:var(--muted);font-size:14px}.paper h3{margin:0 0 5px;font-size:17px;line-height:1.35;color:var(--ink)}.paper p{margin:3px 0;color:var(--muted);font-size:14px}.paper .links{color:var(--blue)}.cols{display:grid;grid-template-columns:1fr 1fr;gap:60px}.plain{margin:0;padding:0;list-style:none}.plain li{margin:0 0 13px}.plain strong{display:block;color:var(--ink)}.plain small{display:block;color:var(--muted);margin-top:2px}
     footer{display:flex;justify-content:space-between;padding:30px 0 45px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
     @media(max-width:650px){header{align-items:flex-start}.intro{grid-template-columns:1fr;gap:25px;padding-top:42px}.cols{grid-template-columns:1fr;gap:30px}nav{gap:12px}.paper{grid-template-columns:1fr;gap:4px}}
   </style>
@@ -49,6 +49,7 @@
 
       <section id="publications">
         <h2>Selected Papers</h2>
+        <p class="publication-note">* denotes co-first authors who contributed equally.</p>
         <article class="paper">
           <div class="year">2026</div>
           <div>
@@ -64,7 +65,7 @@
           <div class="year">2025</div>
           <div>
             <h3>Air pollution and fetal brain morphological development: a prospective cohort study</h3>
-            <p>Laura GH*, <strong>Yu Zhao</strong>*, et al.</p>
+            <p>Laura Gómez-Herrera*, <strong>Yu Zhao</strong>*, Ioar Rivas, Elisenda Eixarch, Carla Domínguez-Gallardo, Toni Galmes, Marta Muniesa, Maria Julia Zanini, Alan Domínguez, Marta Cirach, Mark Nieuwenhuijsen, Xavier Basagaña, Xavier Querol, Maria Foraster, Mariona Bustamante, Jesus Pujol, Mireia Gascon, Elisa Llurba, María Dolores Gómez-Roig, Payam Dadvand, Jordi Sunyer</p>
             <p><em>The Lancet Planetary Health</em>, 2025;9(6):e480–e490</p>
             <p class="links"><a href="https://doi.org/10.1016/S2542-5196(25)00093-2">Paper</a></p>
           </div>
@@ -73,7 +74,7 @@
           <div class="year">2024</div>
           <div>
             <h3>Urban greenspace and visual acuity in schoolchildren: a large prospective cohort study in China</h3>
-            <p>Wenwen B*, <strong>Yu Zhao</strong>*, et al.</p>
+            <p>Wen-Wen Bao*, <strong>Yu Zhao</strong>*, Payam Dadvand, Nan Jiang, Gongbo Chen, Boyi Yang, Wenzhong Huang, Xiang Xiao, Jinghong Liang, Yican Chen, Shan Huang, Xueya Pu, Shaoyi Huang, Haotian Lin, Yuming Guo, Guanghui Dong, Yajun Chen</p>
             <p><em>Environment International</em>, 2024;184:108423</p>
             <p class="links"><a href="https://doi.org/10.1016/j.envint.2024.108423">Paper</a></p>
           </div>
@@ -82,7 +83,7 @@
           <div class="year">2022</div>
           <div>
             <h3>Association between greenspace and blood pressure: A systematic review and meta-analysis</h3>
-            <p><strong>Yu Zhao</strong>*, Wenwen B*, et al.</p>
+            <p><strong>Yu Zhao</strong>*, Wen-Wen Bao*, Bo-Yi Yang, Jing-Hong Liang, Zhao-Huan Gui, Shan Huang, Yi-Can Chen, Guang-Hui Dong, Ya-Jun Chen</p>
             <p><em>The Science of the Total Environment</em>, 2022;817:152513</p>
             <p class="links"><a href="https://doi.org/10.1016/j.scitotenv.2021.152513">Paper</a></p>
           </div>
@@ -91,7 +92,7 @@
           <div class="year">2022</div>
           <div>
             <h3>Face-to-face physical activity incorporated into dietary intervention for overweight/obesity in children and adolescents: a Bayesian network meta-analysis</h3>
-            <p>Liang JH, <strong>Zhao Y</strong>, Chen YC, et al.</p>
+            <p>Jing-Hong Liang, <strong>Yu Zhao</strong>, Yi-Can Chen, Nan Jiang, Shu-Xin Zhang, Shan Huang, Aerziguli Kakaer, Ya-Jun Chen</p>
             <p><em>BMC Medicine</em>, 2022;20:325</p>
             <p class="links"><a href="https://doi.org/10.1186/s12916-022-02462-6">Paper</a></p>
           </div>
@@ -100,7 +101,7 @@
           <div class="year">2022</div>
           <div>
             <h3>Development and Validation of a Nomogram-Based Prognostic Model to Predict High Blood Pressure in Children and Adolescents—Findings From 342,736 Individuals in China</h3>
-            <p>Liang JH, <strong>Zhao Y</strong>, Chen YC, et al.</p>
+            <p>Jing-Hong Liang, <strong>Yu Zhao</strong>, Yi-Can Chen, Shan Huang, Shu-Xin Zhang, Nan Jiang, Aerziguli Kakaer, Ya-Jun Chen</p>
             <p><em>Frontiers in Cardiovascular Medicine</em>, 2022;9:884508</p>
             <p class="links"><a href="https://doi.org/10.3389/fcvm.2022.884508">Paper</a></p>
           </div>
@@ -128,9 +129,13 @@
         <div>
           <h2>Awards</h2>
           <ul class="plain">
-            <li><strong>First Prize for Abstract, ISEE Young Conference</strong><small>Rennes, France · June 2024</small></li>
-            <li><strong>First-class Scholarship for Postgraduate Students</strong><small>2022</small></li>
-            <li><strong>Second-class Scholarship for Postgraduate Students</strong><small>2020–2021</small></li>
+            <li><strong>Travel Award, ISEE Annual Conference</strong><small>Munich, Germany · 2026</small></li>
+            <li><strong>First Prize for a Conference Abstract, ISEE Young</strong><small>Rennes, France · 2024</small></li>
+            <li><strong>First-class Scholarship for Postgraduate Students</strong><small>Sun Yat-sen University · 2022</small></li>
+            <li><strong>Second-class Scholarship for Postgraduate Students</strong><small>Sun Yat-sen University · 2021</small></li>
+            <li><strong>Guoyuan Securities Scholarships and Grants</strong><small>2018–2020</small></li>
+            <li><strong>National Encouragement Scholarship</strong><small>2017</small></li>
+            <li><strong>Zhang Xiqi First-class Scholarship</strong><small>2016</small></li>
           </ul>
         </div>
       </section>
